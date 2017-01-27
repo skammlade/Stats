@@ -19,7 +19,7 @@ R<sup>2</sup> = 0.9007
 
 P-value for the hypothesis that the true parameter value is zero versus a two-sided alternative. (all support H<sub>A</sub>)
 
-| \beta | p-value |
+| B | p-value |
 |-------|---------|
 |Intercept|  <0.0001 |
 |protein| <0.0001 |
@@ -28,14 +28,12 @@ P-value for the hypothesis that the true parameter value is zero versus a two-si
 
 P-value for the hypothesis that the true parameter value is zero versus the one-sided alternative that the true parameter is greater than zero. (intercept supports H<sub>A</sub>; protein, antibio, supplem does not support H<sub>A</sub>)
 
-| \beta | p-value |
+| B | p-value |
 |-------|---------|
 |Intercept|  0.00005 |
 |protein| 0.99995 |
 |antibio| 0.9999 |
 |supplem| 0.99995 |
-
-
 
 
 ```SAS
