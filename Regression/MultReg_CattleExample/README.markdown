@@ -4,14 +4,15 @@ age and weight are purchased and brought to a feedlot. Each steer is fed a diet 
 combination of protein content, antibiotic concentration, and percentage of feed supplement.
 
 
-| Regression |  Pearson Correlation Coefficients  |  Simple Linear Regression Equation  |  R^2  |   
+| Regression |  Pearson Correlation Coefficients  |  Simple Linear Regression Equation  |  R<sup>2</sup>  |   
 |----------|----|----|----|    
 |time - protein   |  -0.71  | y=89.83-0.833x   |  0.51  |    
 |time - antibio   |  -0.42  |  y=83.33-4x  |  0.17   |   
 |time - supplem   |  -0.47  | y=84.21-1.38x   |  0.22  |    
 
-Estimated equation of the multiple regression of time on all variables
-time = 102.71 - 0.83*\protein - 4*\antibio - 1.38*\supplem
+Estimated equation of the multiple regression of time on all variables   
+
+time = 102.71 - 0.83\*protein - 4\*antibio - 1.38\*supplem
 R^2 = 0.9007
 
 **90.07%** of variability in time is explained by the regression on protein, antibiotics, and supplement.
