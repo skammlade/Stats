@@ -12,10 +12,29 @@ combination of protein content, antibiotic concentration, and percentage of feed
 
 Estimated equation of the multiple regression of time on all variables   
 
-time = 102.71 - 0.83\*protein - 4\*antibio - 1.38\*supplem
-R^2 = 0.9007
+time = 102.71 - 0.83\*protein - 4\*antibio - 1.38\*supplem   
+R<sup>2</sup> = 0.9007
 
 **90.07%** of variability in time is explained by the regression on protein, antibiotics, and supplement.
+
+P-value for the hypothesis that the true parameter value is zero versus a two-sided alternative. (all support H<sub>A</sub>)
+
+| \beta | p-value |
+|-------|---------|
+|Intercept|  <0.0001 |
+|protein| <0.0001 |
+|antibio| 0.0002 |
+|supplem| <0.0001 |
+
+P-value for the hypothesis that the true parameter value is zero versus the one-sided alternative that the true parameter is greater than zero. (intercept supports H<sub>A</sub>; protein, antibio, supplem does not support H<sub>A</sub>)
+
+| \beta | p-value |
+|-------|---------|
+|Intercept|  0.00005 |
+|protein| 0.99995 |
+|antibio| 0.9999 |
+|supplem| 0.99995 |
+
 
 
 
